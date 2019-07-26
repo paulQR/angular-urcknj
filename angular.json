@@ -27,6 +27,9 @@
               "src/assets/b4/css/bootstrap.min.css",              
               "src/assets/font-awesome/css/fontawesome.min.css"
             ],
+            "map": [
+              "src/assets/b4/css/bootstrap.min.css.map"
+            ],            
             "scripts": [
               "src/assets/jquery/jquery.slim.min.js",
               "src/assets/tether/tether.min.js",
@@ -43,7 +46,7 @@
               ],
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
+              "sourceMap": true,
               "extractCss": true,
               "namedChunks": false,
               "aot": true,
